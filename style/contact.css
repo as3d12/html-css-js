@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    padding-right: 260px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    border: 2px solid transparent;
+}
+
+.menu li a:hover {
+    border-width: 10px;
+    background: rgb(78, 77, 76);
+    color: #65bff3;
+}
+
+.logo img {
+    width: 100px;
+    float: left;
+    padding-left: 260px;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(206, 210, 241);
+    opacity: 0.73;
+    z-index: -1;
+}
+
+.form {
+    margin-top: 140px;
+    width: 1200px;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    left: 380px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.form h2 {
+    width: 450px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #65bff3;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #65bff3;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form textarea {
+    margin-top: 10px;
+    background: transparent;
+    background-color: aliceblue;
+    margin-left: 3px;
+}
+
+.form h3 {
+    text-align: center;
+    color: #65bff3;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 8px;
+    margin-top: 20px;
+
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #65bff3;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btnn:hover {
+
+    color: #65bff3;
+}
+
+.file {
+    background: #e9e9e9;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 350px;
+    outline: none;
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    background-color: #65bff3;
+    padding: 9px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px;
+    outline: none;
+}
+
+.fot {
+    align-items: center;
+    padding: 10px;
+    padding-top: 770px;
+}
+
+.cov{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.icons {
+    text-align: center;
+padding-top:30px;
+    padding-right: 30px;
+   display: inline-block;
+
+}
+
+.icons a {
+    font-size: 30px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+
+
+.vid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.fot p {
+    color: #969da0;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form .txt {
+    float: right;
+    width: 550px;
+    max-width: 100%;
+    display: inline;
+}
+.fot h2{
+    font: 4px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+
+}

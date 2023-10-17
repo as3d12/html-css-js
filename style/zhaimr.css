@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+body{
+   background-image: url(../img/pexels-pixabay-235994.jpg);
+    margin: 0;
+    padding: 0;
+}
+.overlay {
+    position: absolute;
+    height: 224vh;
+    width: 100vw;
+    background-color: rgb(206, 210, 241);
+    opacity: 0.73;
+    z-index: -2;
+}
+canvas.menu {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    padding-right: 260px;
+}
+p{
+
+    font-size: 15px;
+    font-family:'Droid Arabic Naskh', serif;
+    color: beige;
+    
+ }
+ ol li{
+     font-size: 15px;
+    font-family:'Droid Arabic Naskh', serif;
+    color: beige;
+    
+ }
+ b{
+     font-size: 20px;
+     font-family:'Droid Arabic Naskh', serif;
+     color: beige;
+    
+ }
+ h1{
+     font-size: 25px;
+    font-family:'Droid Arabic Naskh', serif;
+    color: beige;
+    
+ }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    border: 2px solid transparent;
+}
+
+.menu li a:hover {
+    border-width: 10px;
+    background: rgb(78, 77, 76);
+    color: #65bff3;
+}
+
+.logo img {
+    width: 100px;
+    float: left;
+    padding-left: 260px;
+    height: auto;
+}
+.box1{
+    max-width: 1000px;
+    margin: 40px auto 20px;
+    background-color: #40474b;
+    border-radius: 10px;
+   opacity: 80%;
+}
+.box1 h1{
+    text-align: center;
+}
+.box1 h1,p,li,b{
+    padding: 4px;
+}
+.cov{
+    text-align: center;
+    padding-left: 16px;
+}
+.icons {
+   
+    padding-bottom: 24px;
+    padding-top: 2px;
+    padding-right: 30px;
+display: inline-block;
+
+
+}
+
+.icons a {
+   
+    font-size: 30px;
+    color: inherit;
+    opacity: 0.75;
+
+}
+
+.icons a:hover {
+    opacity: 0.9;
+}
+
+.foter ul li a {
+   
+    color: inherit;
+    text-decoration: none;
+}
+
+.foter ul li {
+    color: black;
+    display: inline-block;
+    padding: 0 22px;
+    
+
+}
+
+.foter ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+.foter ul li a:hover {
+    opacity: 1;
+    border-width: 10px;
+    color: #65bff3;
+}
+
+.copy {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
